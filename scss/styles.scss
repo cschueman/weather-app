@@ -1,0 +1,86 @@
+@import "normalize";
+@import "lightgallery";
+@import "lg-transitions";
+@import "uikit.min";
+@import "uikit-rtl.min";
+
+// https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.3.5/css/lightgallery.min.css
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+//.profile-img {
+//  max-width: 200px;  
+//}
+
+header {
+  background: #2F4858;
+  display: flex;
+    max-height: 300px;
+}
+
+body {
+    background: #090C08;
+}
+
+h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 10px 10px 0px 10%;
+    color: #EB5E55;
+    max-width: 300px;
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 0px 10px 10px 10px;
+    color: #FAA275;
+    font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  font-family: 'Barlow Condensed', sans-serif;
+    color: #FAA275;
+}
+
+a img:hover {
+    border: 4px solid #ffa17c;
+}
+
+a img {
+  border: 4px solid #EB5E55;
+}
+
+img {
+    background: #fff;
+}
+
+figure {
+  background: #090C08;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    padding: 75px;
+    max-width: 1090px;
+    margin: 0 auto;
+}
+
+.lg-backdrop {
+  background: rgba(0, 0, 20, .85);
+}
+
+.lg-sub-html {
+  display: none;
+}
+
+.lg-image {
+  border-radius: 20px;
+  box-shadow: 0 0 20px #C6D8D3;
+}
+
+.lg-outer.lg-pull-caption-up.lg-thumb-open .lg-sub-html {
+    display: none;
+}
+
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
+    border-color: #ffa17c;
+}
