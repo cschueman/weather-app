@@ -3,32 +3,32 @@
 @import "uikit-rtl.min";
 @import "simple-weather.min";
 
-.cloudy {
-  background: gray;
+body {
+  background: lightblue;
 }
 
-i {
-  color: pink;
-  font-size: 4em;
+button {
+  background: none;
+  border: none;
 }
 
-
-#forecast tr:nth-child(1) .day {
-  background: red;
+img {
+  width: 300px;
 }
 
-#forecast tr:nth-child(2) .day {
-  background: yellow;
+ul {
+  list-style-type: none;
 }
 
-#forecast tr:nth-child(3) .day {
-  background: blue;
+.city {
+  font-size: 2em;
 }
 
-#forecast tr:nth-child(4) .day {
-  background: purple;
+.temp {
+  font-size: 2em;
 }
 
-#forecast tr:nth-child(5) .day {
-  background: orange;
+p {
+  width: 300px;
+  padding: 10px;
 }
