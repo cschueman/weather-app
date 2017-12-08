@@ -3,32 +3,58 @@
 @import "uikit-rtl.min";
 @import "simple-weather.min";
 
+
 body {
   background: lightblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-button {
-  background: none;
-  border: none;
-}
 
 img {
   width: 300px;
+padding: 0px 20px 0px 20px;
+    margin: 0 auto;
 }
 
 ul {
   list-style-type: none;
+font-family: 'Paytone One', sans-serif;
+padding: 0px 20px 0px 20px;
+    color: azure;
+    text-align: center;
 }
 
 .city {
   font-size: 2em;
+font-family: 'Paytone One', sans-serif;
+
 }
 
 .temp {
   font-size: 2em;
+font-family: 'Paytone One', sans-serif;
+
 }
 
 p {
   width: 300px;
-  padding: 10px;
+font-family: 'Paytone One', sans-serif;
+padding: 0px 20px 20px 20px;
+    color: azure;
 }
+
+h1 {
+padding: 0px 20px 0px 20px;
+    font-family: 'Paytone One', sans-serif;
+    color: azure;
+    text-align: center;
+}
+h2 {
+    padding: 0px 30px 0px 30px;
+    font-family: 'Paytone One', sans-serif;
+    color: azure;
+    text-align: center;
+}
+
