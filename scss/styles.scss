@@ -12,6 +12,7 @@ i {
   font-size: 4em;
 }
 
+
 #forecast tr:nth-child(1) .day {
   background: red;
 }
@@ -22,4 +23,12 @@ i {
 
 #forecast tr:nth-child(3) .day {
   background: blue;
+}
+
+#forecast tr:nth-child(4) .day {
+  background: purple;
+}
+
+#forecast tr:nth-child(5) .day {
+  background: orange;
 }
